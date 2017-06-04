@@ -13,7 +13,7 @@ services:
         depends_on:
             - postgres
         environment:
-            - LOAD_EX=y
+            - LOAD_EX=n
             - EXECUTOR=Local
         # volumes:
             # - ~/github/docker-airflow/dags:/usr/local/airflow/dags
